@@ -223,3 +223,78 @@ h2 {
     font-size: 1rem; /* Tamaño del texto */
 }
 
+@media (max-width: 700px) {
+    body {
+        font-size: 0.9rem; /* Reduce el tamaño general del texto */
+    }
+
+    header {
+        padding: 100px 10px; /* Reduce el padding del header */
+        min-height: 60vh; /* Reduce la altura mínima del header */
+    }
+
+    header h1 {
+        font-size: 5rem; /* Reduce el tamaño del título en el header */
+    }
+
+    .kids {
+        flex-direction: column; /* Cambia a diseño en columna */
+        text-align: center; /* Centra el texto */
+    }
+
+    .kids img {
+        max-width: 80%; /* Reduce el tamaño de la imagen */
+        margin: 20px auto; /* Centra la imagen y agrega margen */
+    }
+
+    .kids div {
+        max-width: 90%; /* Aumenta el ancho del texto */
+        margin: 0 auto; /* Centra el texto */
+    }
+
+    .programs .cards {
+        flex-direction: column; /* Cambia las tarjetas a diseño en columna */
+        gap: 10px; /* Reduce el espacio entre las tarjetas */
+    }
+
+    .programs .card {
+        width: 100%; /* Las tarjetas ocupan todo el ancho */
+        margin: 10px 0; /* Reduce el margen entre las tarjetas */
+    }
+
+    .studio {
+        flex-direction: column; /* Cambia a diseño en columna */
+        text-align: center; /* Centra el texto */
+    }
+
+    .studio img {
+        max-width: 80%; /* Reduce el tamaño de la imagen */
+        margin: 20px auto; /* Centra la imagen */
+    }
+
+    .studio div {
+        max-width: 90%; /* Aumenta el ancho del texto */
+        margin: 0 auto; /* Centra el texto */
+    }
+
+    .image-row {
+        flex-direction: column; /* Cambia las imágenes a diseño en columna */
+        gap: 10px; /* Agrega espacio entre las imágenes */
+    }
+
+    .image-row img {
+        width: 100%; /* Las imágenes ocupan todo el ancho */
+    }
+
+    .footer-content {
+        flex-direction: column; /* Cambia las columnas del footer a diseño en columna */
+        text-align: center; /* Centra el texto */
+    }
+
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        margin-bottom: 10px; /* Agrega espacio entre las secciones del footer */
+    }
+}
+
