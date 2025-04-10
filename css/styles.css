@@ -80,7 +80,7 @@ section {
 }
 
 .programs h1 {
-    font-size: 1.8rem;
+    font-size: 4rem;
     margin-bottom: 20px;
     text-align: center; /* Centra el título horizontalmente */
 }
@@ -126,13 +126,13 @@ section {
 }
 
 .studio h2 {
-    font-size: 1.6rem; /* Reduce el tamaño del título */
-    margin-bottom: 15px; /* Incrementa el espacio entre el título y el párrafo */
+    font-size: 5rem; /* Tamaño del título */
+    margin-bottom: 15px; /* Espacio entre el título y el párrafo */
 }
 
 .studio p {
-    font-size: 1rem; /* Reduce el tamaño del texto */
-    margin-bottom: 10px; /* Reduce el espacio entre los párrafos */
+    font-size: 3rem; /* Tamaño del texto */
+    margin-bottom: 10px; /* Espacio entre los párrafos */
 }
 
 .studio img {
@@ -145,20 +145,19 @@ section {
 .studio div {
     max-width: 40%; /* Reduce el ancho del texto */
     text-align: left; /* Alinea el texto a la izquierda */
-    margin-left: 0; /* Elimina el margen izquierdo */
+    margin-left: 30px; /* Agrega un margen entre la imagen y el texto */
 }
 
 .footer {
-    background-color: #add8e6;
+    background-color: #24a7ed;
     padding: 20px;
     text-align: center;
 }
 
 .footer p {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 5.7rem;
 }
-
 
 .image-row {
     display: flex;
