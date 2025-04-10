@@ -110,33 +110,33 @@ section {
 .studio {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start; /* Alinea los elementos al inicio del contenedor */
     padding: 20px;
-    text-align: left; /* Asegura que el texto esté alineado correctamente */
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
     background-color: #f0f8ff;
 }
 
 .studio h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
+    font-size: 1.6rem; /* Reduce el tamaño del título */
+    margin-bottom: 15px; /* Incrementa el espacio entre el título y el párrafo */
 }
 
 .studio p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    font-size: 1rem; /* Reduce el tamaño del texto */
+    margin-bottom: 10px; /* Reduce el espacio entre los párrafos */
 }
 
 .studio img {
-    max-width: 40%; /* Mantiene el tamaño de la imagen */
+    max-width: 35%; /* Ajusta el tamaño de la imagen */
     height: auto;
     border-radius: 10px; /* Opcional: bordes redondeados */
-    margin-right: 10px; /* Reduce el espacio entre la imagen y el texto */
+    margin-right: 20px; /* Incrementa el espacio entre la imagen y el texto */
 }
 
 .studio div {
-    max-width: 45%; /* Limita el ancho del texto */
-    text-align: right; /* Alinea el texto a la derecha */
-    margin-left: 10px; /* Opcional: ajusta el espacio entre el texto y la imagen */
+    max-width: 40%; /* Reduce el ancho del texto */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: 0; /* Elimina el margen izquierdo */
 }
 
 .footer {
