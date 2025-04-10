@@ -45,7 +45,7 @@ section {
 
 .kids h2 {
     font-size: 2rem; /* Incrementa el tamaño del encabezado */
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Agrega espacio entre el encabezado y el texto */
 }
 
 .kids p {
@@ -54,11 +54,15 @@ section {
 }
 
 .kids img {
-    max-width: 40%; /* Incrementa el ancho de la imagen al 40% del contenedor */
+    max-width: 45%; /* Ajusta el tamaño de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
     border-radius: 10px; /* Opcional: bordes redondeados */
-    margin-left: 0; /* Asegura que la imagen esté alineada a la izquierda */
+    margin-left: 20px; /* Reduce el espacio entre el texto y la imagen */
     margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.kids div {
+    max-width: 30%; /* Limita el ancho del texto al 30% del contenedor */
 }
 
 .programs {
