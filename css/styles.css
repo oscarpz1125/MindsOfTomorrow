@@ -51,12 +51,12 @@ section {
 }
 
 .kids h2 {
-    font-size: 2rem; /* Incrementa el tamaño del encabezado */
-    margin-bottom: 20px; /* Agrega espacio entre el encabezado y el texto */
+    font-size: 3.5rem; /* Incrementa el tamaño del encabezado */
+    margin-bottom: 30px; /* Agrega espacio entre el encabezado y el texto */
 }
 
 .kids p {
-    font-size: 1.8rem; /* Incrementa el tamaño del párrafo */
+    font-size: 3rem; /* Incrementa el tamaño del párrafo */
     margin-bottom: 20px;
 }
 
@@ -74,13 +74,13 @@ section {
 }
 
 .programs {
-    background-color: #00e86c;
+    background-color: #00ffaa;
     padding: 20px;
     text-align: center;
 }
 
 .programs h1 {
-    font-size: 4rem;
+    font-size: 5.5rem;
     margin-bottom: 20px;
     text-align: center; /* Centra el título horizontalmente */
 }
@@ -100,7 +100,7 @@ section {
     width: 150px;
     padding: 10px;
     text-align: center;
-    margin: 20px; /* Agrega separación entre las tarjetas */
+    margin: 80px; /* Agrega separación entre las tarjetas */
 }
 
 .programs .card p {
@@ -127,25 +127,26 @@ section {
 
 .studio h2 {
     font-size: 5rem; /* Tamaño del título */
-    margin-bottom: 15px; /* Espacio entre el título y el párrafo */
+    margin-bottom: 30px; /* Espacio entre el título y el párrafo */
 }
 
 .studio p {
-    font-size: 3rem; /* Tamaño del texto */
+    font-size: 3.5rem; /* Tamaño del texto */
     margin-bottom: 10px; /* Espacio entre los párrafos */
 }
 
 .studio img {
-    max-width: 35%; /* Ajusta el tamaño de la imagen */
+    max-width: 45%; /* Ajusta el tamaño de la imagen */
     height: auto;
     border-radius: 10px; /* Opcional: bordes redondeados */
     margin-right: 20px; /* Incrementa el espacio entre la imagen y el texto */
+    margin-left: 110px; /* Agrega un margen entre la imagen y el borde izquierdo */
 }
 
 .studio div {
     max-width: 40%; /* Reduce el ancho del texto */
     text-align: left; /* Alinea el texto a la izquierda */
-    margin-left: 30px; /* Agrega un margen entre la imagen y el texto */
+    margin-left: 90px; /* Agrega un margen entre la imagen y el texto */
 }
 
 .footer1 {
