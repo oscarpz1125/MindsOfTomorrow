@@ -56,7 +56,7 @@ section {
 }
 
 .kids p {
-    font-size: 1.4rem; /* Incrementa el tamaño del párrafo */
+    font-size: 1.8rem; /* Incrementa el tamaño del párrafo */
     margin-bottom: 20px;
 }
 
@@ -64,12 +64,13 @@ section {
     max-width: 45%; /* Ajusta el tamaño de la imagen */
     height: auto; /* Mantiene la proporción de la imagen */
     border-radius: 10px; /* Opcional: bordes redondeados */
-    margin-left: 140px; /* Incrementa el margen izquierdo para mover la imagen más a la derecha */
-    margin-right: 80px; /* Mantiene el espacio entre la imagen y el borde derecho */
+    margin-left: 190px; /* Incrementa el margen izquierdo para mover la imagen más a la derecha */
+    margin-right: 110px; /* Mantiene el espacio entre la imagen y el borde derecho */
 }
 
 .kids div {
     max-width: 30%; /* Limita el ancho del texto al 30% del contenedor */
+    margin-left: 80px; /* Agrega un margen al lado izquierdo del texto */
 }
 
 .programs {
