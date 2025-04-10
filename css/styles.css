@@ -148,13 +148,13 @@ section {
     margin-left: 30px; /* Agrega un margen entre la imagen y el texto */
 }
 
-.footer {
+.footer1 {
     background-color: #24a7ed;
     padding: 20px;
     text-align: center;
 }
 
-.footer p {
+.footer1 p {
     margin: 0;
     font-size: 5.7rem;
 }
@@ -191,5 +191,33 @@ h2 {
     margin-bottom: 20px; /* Espacio debajo de los títulos */
     text-align: center; /* Centra los títulos */
     color: #000; /* Color del texto */
+}
+
+.footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0; /* Espaciado vertical */
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Centra el contenido */
+    padding: 0 20px; /* Espaciado horizontal */
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1; /* Asegura que cada columna ocupe el mismo espacio */
+    text-align: center; /* Centra el texto dentro de cada columna */
+}
+
+.footer p {
+    margin: 5px 0; /* Espaciado entre líneas */
+    font-size: 1rem; /* Tamaño del texto */
 }
 
