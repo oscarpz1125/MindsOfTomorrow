@@ -56,7 +56,7 @@ section {
 }
 
 .kids p {
-    font-size: 3rem; /* Incrementa el tamaño del párrafo */
+    font-size: 2.1rem; /* Incrementa el tamaño del párrafo */
     margin-bottom: 20px;
 }
 
@@ -80,7 +80,7 @@ section {
 }
 
 .programs h1 {
-    font-size: 5.5rem;
+    font-size: 5rem;
     margin-bottom: 20px;
     text-align: center; /* Centra el título horizontalmente */
 }
@@ -100,7 +100,7 @@ section {
     width: 150px;
     padding: 10px;
     text-align: center;
-    margin: 80px; /* Agrega separación entre las tarjetas */
+    margin: 30px; /* Agrega separación entre las tarjetas */
 }
 
 .programs .card p {
@@ -126,12 +126,13 @@ section {
 }
 
 .studio h2 {
-    font-size: 5rem; /* Tamaño del título */
+    font-size: 4rem; /* Tamaño del título */
     margin-bottom: 30px; /* Espacio entre el título y el párrafo */
+    text-align: left; /* Alinea el título a la izquierda */
 }
 
 .studio p {
-    font-size: 3.5rem; /* Tamaño del texto */
+    font-size: 2.5rem; /* Tamaño del texto */
     margin-bottom: 10px; /* Espacio entre los párrafos */
 }
 
@@ -151,13 +152,13 @@ section {
 
 .footer1 {
     background-color: #24a7ed;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 
 .footer1 p {
     margin: 0;
-    font-size: 5.7rem;
+    font-size: 5rem;
 }
 
 .image-row {
