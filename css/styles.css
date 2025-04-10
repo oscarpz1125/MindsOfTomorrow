@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Quicksand', sans-serif; /* Aplica la fuente Quicksand a todo el texto */
+    font-weight: 300; /* Usa el peso ligero de la fuente */
+    font-optical-sizing: auto; /* Asegura un tamaño óptico adecuado */
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -71,9 +75,10 @@ section {
     text-align: center;
 }
 
-.programs h2 {
+.programs h1 {
     font-size: 1.8rem;
     margin-bottom: 20px;
+    text-align: center; /* Centra el título horizontalmente */
 }
 
 .programs .cards {
@@ -150,31 +155,6 @@ section {
     font-size: 1.2rem;
 }
 
-/* Media query for screens with a max width of 700px */
-@media (max-width: 700px) {
-    header {
-        padding: 30px 20px;
-    }
-    header h1 {
-        font-size: 2rem;
-    }
-    header p {
-        font-size: 1rem;
-    }
-    .programs .cards {
-        flex-direction: column;
-        gap: 10px;
-    }
-    .programs .card {
-        width: 100%;
-    }
-    .studio img {
-        max-width: 100%;
-    }
-    .footer {
-        padding: 15px;
-    }
-}
 
 .image-row {
     display: flex;
@@ -192,4 +172,12 @@ section {
     height: auto; /* Mantiene la proporción de las imágenes */
     border-radius: 0; /* Elimina los bordes redondeados */
     margin: 0; /* Elimina cualquier margen de las imágenes */
+}
+
+h1 {
+    font-size: 3rem; /* Incrementa el tamaño de los títulos */
+    font-weight: bold; /* Asegura que los títulos sean destacados */
+    margin-bottom: 20px; /* Espacio debajo de los títulos */
+    text-align: left; /* Centra los títulos */
+    color: #000; /* Color del texto */
 }
